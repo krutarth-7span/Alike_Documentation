@@ -215,13 +215,13 @@
 - **quoteX** graphql use in when we select hotel room at that time use.in code configuration set quoteX query and **NaS\\Travelgatex\\Model\\Resolver\\Quote** it’s resolver to use.
 - In quoteX add hotelX parameter. 
 
-**17) Product Comment GraphQL**
+## <a name="_y4kuao7pix1x"></a>  **17) Product Comment GraphQL**
 
 - Product Comment GraphQL in particular product page.
 - ProductComment located at **app/code/Nik/CatalogGraphQl** module.
 - Nik\\CatalogGraphQl\\Model\\Resolver\\Product\\ProductComment resolver file to use in this graphql.
 
-**18) Insider Account Graphql**
+## <a name="_y4kuao7pix1x"></a>  **18) Insider Account Graphql**
 
 - InsiderAccount GraphQl use in particular insider’s page.
 - InsiderAccount GraphQl configure in **app/code/Nik/insiderPageGraphQl** module.
@@ -240,7 +240,7 @@
 - **Nik\\InsidersDashboardGraphQl\\Model\\Resolver\\MyTripsResolver** is mytrips resolver.
 - In resolver for fetching data about trips. It includes methods to handle authorization, retrieve insider and product information, and build a response containing information about top trips with pagination details. The resolver also includes methods to handle image URLs, including placeholders.
 
-**19)categoryinterface:**
+## <a name="_y4kuao7pix1x"></a>  **19)categoryinterface:**
 
 - Categoryinterface return data by items.
 - esim\_product configuration in **app/code/Nik/CatalogGraphQl/etc/schema.graphqls.**
