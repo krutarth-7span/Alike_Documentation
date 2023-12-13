@@ -249,7 +249,6 @@
 - **Nik\\CatalogGraphQl\\Model\\Resolver\\Travelpass** is travelpass resolver.
 - resolver (**Travelpass**) that retrieves data about top-rated travel passes based on various filters. The resolver constructs a product collection, applies filters, and returns relevant information in the output array. 
 
-**
 
 
 **
