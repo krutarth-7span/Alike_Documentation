@@ -7,7 +7,7 @@ In the resolver file return data like id, name,profile_picture etc using insider
 In the admin panel STORE->Configuration->CUSTOM->Insider->Home Page Configuration set the Insider Community text field. here admin set a coma separating insider’s ID and showed it in insider community.
    
 
-**2) Explore Cities Nearby**Explore Cities Nearby is shown on (https://alike.io/cities/ page).
+**2) Explore Cities Nearby**Explore Cities Nearby is shown on [(https://alike.io/cities/](url) page.
 Explore cities nearby code configuration in **app/code/Nik/Cities/etc/schema.graphqls.**
 Here CategoryInterface in Citycustom query for this block.
  Nik\\Cities\\Model\\Resolver\\CityCustom is the resolver for city custom.
@@ -15,7 +15,7 @@ Admin panel in **Catalog->Category->Content->Explore Nearby** Here admin set a c
 In the resolver file return data name, image, and highlights load by Explore Nearby cities id.
 
 
-**3) BlackFriday phse1**The Black Friday sale is shown on [https://alike.io/black-friday page.](url)
+**3) BlackFriday phse1**The Black Friday sale is shown on [https://alike.io/black-friday](url) page.
 Black Friday Sale in three phases.
 StoreConfig GraphQl uses BlackFriday reserve price and SKU.
 passHotel and passProduct GraphQl use and items Query to retrieve data.
@@ -109,12 +109,12 @@ getProduct add in product interface and Nik\\CatalogGraphQl\\Model\\Resolver\\Bo
 insiderTickets mutation add in product interface, when we select trip story at that time use this mutation and Nik\\CatalogGraphQl\\Model\\Resolver\\Booking\\InsiderTi this resolver file use for retrieve the data.
 Also itineraryPrice mutation add and Nik\\CatalogGraphQl\\Model\\Resolver\\Booking\\ItineraryPrice this resolver use.
 
-**10)Travel Passes Page** Travell passes are comes from  [https://alike.io/travel-passes?utm_source=site&utm_medium=menu-desktop&utm_campaign=menu.](url)
+**10)Travel Passes Page** Travell passes are comes from  [https://alike.io/travel-passes?utm_source=site&utm_medium=menu-desktop&utm_campaign=menu](url)
 In this page use categories interface and return data.
 Category interface is located at app/code/Nik/CataloggraphQl.
 Travel passes as a product attribute to add in admin STORE->Attribute->Product.
 Nik\\CatalogGraphQl\\Model\\Resolver\\Esim is a resolver to set and get data.in this resolver set page size and add filter as a attribute and return data.
-     → If we can click any passes so move to                            [ https://alike.io/products/the-london-passr page.](url)
+     → If we can click any passes so move to                            [https://alike.io/products/the-london-passr page](url)
 Also, this page uses a product interface.
 Musement api thru select date for ticket and book ticket.
 Nik\\CatalogGraphQl\\Model\\Resolver\\Booking\\MusementTickets is resolver to fetch live ticket data.
@@ -134,7 +134,7 @@ For eSIMs product use Nik\\CatalogGraphQl\\Model\\Resolver\\Esim resolver.
 Set E SIM attribute set and use in resolver to filter products for eSIMs.
 
 
-**12) Winter Sale**The Winter Sale page URL is [https://alike.io/winter-sale?utm_source=site&utm_medium=menu-desktop&utm_campaign=menu.](url)
+**12) Winter Sale**The Winter Sale page URL is [https://alike.io/winter-sale?utm_source=site&utm_medium=menu-desktop&utm_campaign=menu](url)
 In winter sale use product interface to retrieve product.
 Here winter sale is only for Dubai.
 storeConfig GraphQl use in wintersale and it’s located at app/code/NaS/Ticket module.
@@ -145,7 +145,7 @@ passHotel GraphQL used for Hotel.
 NaS\\Ticket\\Model\\Resolver\\PassHotel resolver to use return hotel data.
 In this resolver using collectionfacteory to retrieve hotel and return data.
 
-**13) Cart Page**When we add product to cart then reach [https://uat.alike.host/cart page.](url)
+**13) Cart Page**When we add product to cart then reach [https://uat.alike.host/cart](url) page.
 In this page addProductToCart GraphQL call.
 This GraphQL use in app/code/Nik/CataloggraphQl module.
 Nik\\CatalogGraphQl\\Model\\Resolver\\Booking\\AddProductToCart resolver use for this GraphQL.
@@ -158,7 +158,7 @@ Abandoned report configuration in Admin panel REPORTING->Anamdoned->Reports.
 Abandoned email configuration on STORE->Configuration->CUSTOM->Abandoned in Admin panel.
  
 
-**14) Signup/Signin Page** Signin page URL is[ https://app.alike.io/#/signin.](url)
+**14) Signup/Signin Page** Signin page URL is[ https://app.alike.io/#/signin](url)
 amSocialLoginButtonConfig GraphQL used through work signup/sign-in.
 amSocialLoginButtonConfig GraphQL is located at app/code/Amasty/SocialLoginGraphQl module.
 Amasty\\SocialLoginGraphQl\\Model\\Resolver\\SocialButtons is resolver of amSocialLoginButtonConfig.
@@ -166,7 +166,7 @@ In resolver (SocialButtons) that retrieves information about enabled social logi
 Then user creates a successfully after-call createCustomerv2 GraphQL
 In app/code/Nik/Cities module use for create customer.
 \\Nik\\Cities\\Model\\Resolver\\Insider\\CreateCustomer resolver used for creating customer.
-[https://app.alike.host/#/account/general after signin as a user reach this page.](url)
+[https://app.alike.host/#/account/general after signin as a user reach this](url)page.
 [https://app.alike.host/#/my-trips/my-bookings/upcoming-order](url) in this page customer order graphql call 
 Customer graphql is located at app/code/Nik/SalesGraphQL module.
 Magento\\SalesGraphQl\\Model\\Resolver\\CustomerOrders resolver use for customer order.
@@ -191,7 +191,7 @@ Wallet GraphQL for account wallet.
 Wallet GraphQl is located at app/code/Nik/InsidersDashboardgraphQL module.
 And Nik\\Cities\\Model\\Resolver\\Wallets is a resolver.
 
-**16) Hotels & Stays Page**SearchX GraphQL is use [https://uat.alike.host/hotels page](url) in search section.
+**16) Hotels & Stays Page**SearchX GraphQL is use [https://uat.alike.host/hotels](url) page in search section.
 SearchX GarphQL is located at app/code/NaS/Travelgatex module.
 Here SearchX GraphQL use for search and NaS\\Travelgatex\\Model\\Resolver\\Search is resolver.
 NaS\\Travelgatex\\Model\\Resolver\\SearchList resolver use for SearchListX.
