@@ -9,10 +9,10 @@
 
 
 ## <a name="_co22t2bxuuho"></a> 2) **Explore Cities Nearby**
-- ## <a name="_aqi9n45e0yox"></a>Explore Cities Nearby is shown on <https://alike.io/cities/> page.
+- Explore Cities Nearby is shown on <https://alike.io/cities/> page.
 - Explore cities nearby code configuration in **app/code/Nik/Cities/**etc/schema.graphqls.
 - Here CategoryInterface in Citycustom query for this block.
-- ` `**Nik\\Cities\\Model\\Resolver\\CityCustom** is the resolver for city custom.
+- **Nik\\Cities\\Model\\Resolver\\CityCustom** is the resolver for city custom.
 - Admin panel in **Catalog->Category->Content->Explore Nearby** Here admin set a coma separated city’s ID and showed it in Explore Cities Nearby.
 - In the resolver file return data name, image, and highlights load by Explore Nearby cities id.
 
@@ -92,7 +92,7 @@
 - **Nik\\CatalogGraphQl\\Model\\Resolver\\Product\\GlobaltixAvailability**
 - That resolver use to retrieve data. Using globlatixFactory in which id is active that return product.
 - **hide\_adult, hide\_child, hide\_infant** are attributes to set in store->product attribute.
-- ` `**include\_in\_touristors**  is a custom attribute to add in product interface.here **Nik\\CatalogGraphQl\\Model\\Resolver\\Product\\IncludedTouristors** resolver use.
+- **include\_in\_touristors**  is a custom attribute to add in product interface.here **Nik\\CatalogGraphQl\\Model\\Resolver\\Product\\IncludedTouristors** resolver use.
 - **included\_trips** attribute** to** add in product interface and **Nik\\CatalogGraphQl\\Model\\Resolver\\Product\\IncludedTrips** is a resolver use.in resolver file fetch data from product attribute.
 - **kit\_avability** add in interface and **Nik\\CatalogGraphQl\\Model\\Resolver\\Product\\KitAvailability** resolver use. In resolver get data to fetching kit API and return those data to come from kit API.
 - **strike\_price\_value**  is set in product interface and Nik\\CatalogGraphQl\\Model\\Resolver\\Product\\StrikePrice is a resolver.
@@ -119,13 +119,11 @@
 - Also **itineraryPrice** mutation add and **Nik\\CatalogGraphQl\\Model\\Resolver\\Booking\\ItineraryPrice** this resolver use.
 
 ## <a name="_gws9ys9wfr0"></a>     **10)Travel Passes Page**
-- ` `Travell passes are comes from  <https://alike.io/travel-passes?utm_source=site&utm_medium=menu-desktop&utm_campaign=menu>.
+- Travell passes are comes from  <https://alike.io/travel-passes?utm_source=site&utm_medium=menu-desktop&utm_campaign=menu>.
 - In this page use categories interface and return data.
 - Category interface is located at **app/code/Nik/CataloggraphQl.**
 - Travel passes as a product attribute to add in admin STORE->Attribute->Product.
-- **Nik\\CatalogGraphQl\\Model\\Resolver\\Esim** is a resolver to set and get data.in this resolver set page size and add filter as a attribute and return data.
-
-`     `**→** If we can click any passes so move to                             <https://alike.io/products/the-london-passr> page.
+- **Nik\\CatalogGraphQl\\Model\\Resolver\\Esim** is a resolver to set and get data.in this resolver set page size and add filter as a attribute and return data. If we can click any passes so move to                             <https://alike.io/products/the-london-passr> page.
 
 - Also, this page uses a product interface.
 - Musement api thru select date for ticket and book ticket.
@@ -175,7 +173,7 @@
 
 
 ## <a name="_b4am6q73tlr6"></a>       **14) Signup/Signin Page**
-- ` `Signin page URL is <https://app.alike.io/#/signin>.
+- Signin page URL is <https://app.alike.io/#/signin>.
 - amSocialLoginButtonConfig GraphQL used through work signup/sign-in.
 - amSocialLoginButtonConfig GraphQL is located at **app/code/Amasty/SocialLoginGraphQl module.**
 - **Amasty\\SocialLoginGraphQl\\Model\\Resolver\\SocialButtons** is resolver of amSocialLoginButtonConfig.
@@ -237,7 +235,7 @@
 - **Nik\\Cities\\Model\\Resolver\\Wallets** is wallets resolver.
 - resolver for retrieving information about a user's wallet transactions and It includes logic for handling authorization, loading credit information, filtering and sorting transactions, and providing pagination details.
 - categoryimageid configuration in **app/code/Nik/CatalogGraphQl/etc/schema.graphqls .**
-- ` `**Nik\\CatalogGraphQl\\Model\\Resolver\\Story\\CategoryImageIdData** is categoryimageid resolver.
+- **Nik\\CatalogGraphQl\\Model\\Resolver\\Story\\CategoryImageIdData** is categoryimageid resolver.
 - A graphQL resolver that retrieves data about category images based on city attributes. It iterates over the options of the 'ins\_city' attribute, fetches corresponding category data, and builds an array containing attribute ID, city name, category ID, and category image URL for each category.
 - Mytrips configuration in **app/code/Nik/InsidersDashboardGraphQl/etc/schema.graphqls.**
 - **Nik\\InsidersDashboardGraphQl\\Model\\Resolver\\MyTripsResolver** is mytrips resolver.
@@ -252,8 +250,6 @@
 - **Nik\\CatalogGraphQl\\Model\\Resolver\\Travelpass** is travelpass resolver.
 - resolver (**Travelpass**) that retrieves data about top-rated travel passes based on various filters. The resolver constructs a product collection, applies filters, and returns relevant information in the output array. 
 
-
-** 
 
 
 
