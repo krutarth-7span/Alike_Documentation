@@ -1,4 +1,3 @@
-﻿# <a name="_rc6r9vsc82ga"></a>Alike documentation
 ## <a name="_1dqnhyeyex"></a>   **1)  Insider Community:**
 - The insider community is shown on home page of alike.io.
 - Insider community code configuration in **App/Code/Nik/InsiderPageGraphQl.**
